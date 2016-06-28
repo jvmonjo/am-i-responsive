@@ -1,12 +1,15 @@
 @font-face {
     font-family: 'RobotoMedium';
-    src: url('/fonts/Roboto-Medium-webfont.eot');
-    src: url('/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/Roboto-Medium-webfont.woff') format('woff'),
-         url('/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
-         url('/fonts/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
+    src: url('../fonts/Roboto-Medium-webfont.eot');
+    src: url('../fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
     font-weight: normal;
     font-style: normal;}
+
+$colorLink: #046753;
+$colorLinkBackground: #2DEFCB;
 
 body {background-color: #fff;
       background-image: url('../images/background.jpg'); 
@@ -31,27 +34,33 @@ h2 {margin:1em;}
 dt {font-weight: bold;}
 p {line-height: 1.6; margin:1em 2em; &.intro {clear:both;}
   }
-a {color: #ede6dc; text-decoration: none;
+a {color: #1F2F2C; text-decoration: none;
   transition: all 1s ease;
-  &:hover { color:#cc4e46;
-    background-color: #ede6dc;
+  &:hover { color:$colorLink;
+    background-color: $colorLinkBackground;
 }
 }
 
+footer{
+background-color: #168C75;
+padding-left: 20px;
+padding-right: 20px;
+}
+
 a.button {
-background-color: #ede6dc;
-color: #cc4e46;
+background-color: #168C75;
+color: #1F2F2C;
 width: 8%;
 line-height: 1.7em;
 margin: 0;
 font-size: 2em;
 text-align: center;
 float: left;
-border: solid 1px #8e352e;
+border: solid 1px $colorLink;
 box-shadow: 0 0 3px #333;
   &:hover{
-    background-color:#cc4e46;
-    color:#ede6dc ;
+    background-color:$colorLinkBackground;
+    color:$colorLink;
   }
 }
 
@@ -70,7 +79,7 @@ h1 {text-transform: uppercase;text-align: center}
 
 .url {
  float: left;
-background-color: #cc4e46;
+background-color: #1ABC9C;
 width: 100%;
 margin: 0 auto;
 box-shadow: 0px -2px 5px #333;
