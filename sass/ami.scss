@@ -10,7 +10,6 @@
 
 $colorLink: #046753;
 $colorLinkBackground: #2DEFCB;
-$colorURLBackground: #1ABC9C;
 
 body {background-color: #fff;
       background-image: url('../images/background.jpg'); 
@@ -80,7 +79,7 @@ h1 {text-transform: uppercase;text-align: center}
 
 .url {
  float: left;
-background-color: $colorURLBackground;
+background-color: #1ABC9C;
 width: 100%;
 margin: 0 auto;
 box-shadow: 0px -2px 5px #333;
