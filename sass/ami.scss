@@ -43,8 +43,7 @@ a {color: #1F2F2C; text-decoration: none;
 
 footer{
 background-color: #168C75;
-padding-left: 20px;
-padding-right: 20px;
+padding: 5px;
 }
 
 a.button {
@@ -78,7 +77,7 @@ h1 {text-transform: uppercase;text-align: center}
 }
 
 .url {
- float: left;
+padding: 10px;
 background-color: #1ABC9C;
 width: 100%;
 margin: 0 auto;
@@ -86,8 +85,6 @@ box-shadow: 0px -2px 5px #333;
 }
 form { width: 85%;
 margin: 1em auto;}
-
-
 div {
    background-repeat: no-repeat; 
    background-size: 100%;
