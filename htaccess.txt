@@ -1,0 +1,4 @@
+#Activar cache
+<filesMatch ".(ico|pdf|flv|jpg|svg|jpeg|png|gif|js|css|swf|woff)$">
+ Header set Cache-Control "max-age=846000, public"
+</filesMatch>
